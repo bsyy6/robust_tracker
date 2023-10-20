@@ -1,0 +1,5 @@
+if(EXISTS "C:/Users/Giada/Documents/codeTraining/formGithub/my_project/build/my_project/my_test[1]_tests.cmake")
+  include("C:/Users/Giada/Documents/codeTraining/formGithub/my_project/build/my_project/my_test[1]_tests.cmake")
+else()
+  add_test(my_test_NOT_BUILT my_test_NOT_BUILT)
+endif()

@@ -1,0 +1,30 @@
+Start testing: Oct 20 16:45 W. Europe Daylight Time
+----------------------------------------------------------
+1/1 Testing: TESTE_ADD.TESTE_ADD_1
+1/1 Test: TESTE_ADD.TESTE_ADD_1
+Command: "C:/Users/Giada/Documents/codeTraining/formGithub/my_project/build/my_project/Debug/my_test.exe" "--gtest_filter=TESTE_ADD.TESTE_ADD_1" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/Giada/Documents/codeTraining/formGithub/my_project/build/my_project
+"TESTE_ADD.TESTE_ADD_1" start time: Oct 20 16:45 W. Europe Daylight Time
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\Giada\Documents\codeTraining\formGithub\my_project\external\googletest\googletest\src\gtest_main.cc
+Note: Google Test filter = TESTE_ADD.TESTE_ADD_1
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TESTE_ADD
+[ RUN      ] TESTE_ADD.TESTE_ADD_1
+[       OK ] TESTE_ADD.TESTE_ADD_1 (0 ms)
+[----------] 1 test from TESTE_ADD (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"TESTE_ADD.TESTE_ADD_1" end time: Oct 20 16:45 W. Europe Daylight Time
+"TESTE_ADD.TESTE_ADD_1" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Oct 20 16:45 W. Europe Daylight Time
