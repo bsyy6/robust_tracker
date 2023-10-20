@@ -1,0 +1,10 @@
+# CMake generation dependency list for this directory.
+C:/cmake-3.26.5-windows-x86_64/share/cmake-3.26/Modules/CheckCSourceCompiles.cmake
+C:/cmake-3.26.5-windows-x86_64/share/cmake-3.26/Modules/CheckIncludeFile.cmake
+C:/cmake-3.26.5-windows-x86_64/share/cmake-3.26/Modules/CheckLibraryExists.cmake
+C:/cmake-3.26.5-windows-x86_64/share/cmake-3.26/Modules/FindPackageHandleStandardArgs.cmake
+C:/cmake-3.26.5-windows-x86_64/share/cmake-3.26/Modules/FindPackageMessage.cmake
+C:/cmake-3.26.5-windows-x86_64/share/cmake-3.26/Modules/FindThreads.cmake
+D:/OneDrive/OneDrive - Scuola Superiore Sant'Anna/04 projects/optitrack/robust_tracker/libs/googletest/googlemock/CMakeLists.txt
+D:/OneDrive/OneDrive - Scuola Superiore Sant'Anna/04 projects/optitrack/robust_tracker/libs/googletest/googlemock/cmake/gmock.pc.in
+D:/OneDrive/OneDrive - Scuola Superiore Sant'Anna/04 projects/optitrack/robust_tracker/libs/googletest/googlemock/cmake/gmock_main.pc.in

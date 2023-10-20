@@ -1,0 +1,5 @@
+if(EXISTS "D:/OneDrive/OneDrive - Scuola Superiore Sant'Anna/04 projects/optitrack/robust_tracker/build/my_project[1]_tests.cmake")
+  include("D:/OneDrive/OneDrive - Scuola Superiore Sant'Anna/04 projects/optitrack/robust_tracker/build/my_project[1]_tests.cmake")
+else()
+  add_test(my_project_NOT_BUILT my_project_NOT_BUILT)
+endif()

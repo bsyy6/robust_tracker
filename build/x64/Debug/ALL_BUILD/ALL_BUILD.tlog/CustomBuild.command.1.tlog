@@ -1,0 +1,10 @@
+^D:\ONEDRIVE\ONEDRIVE - SCUOLA SUPERIORE SANT'ANNA\04 PROJECTS\OPTITRACK\ROBUST_TRACKER\CMAKELISTS.TXT
+setlocal
+C:\cmake-3.26.5-windows-x86_64\bin\cmake.exe "-SD:/OneDrive/OneDrive - Scuola Superiore Sant'Anna/04 projects/optitrack/robust_tracker" "-BD:/OneDrive/OneDrive - Scuola Superiore Sant'Anna/04 projects/optitrack/robust_tracker/build" --check-stamp-file "D:/OneDrive/OneDrive - Scuola Superiore Sant'Anna/04 projects/optitrack/robust_tracker/build/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
