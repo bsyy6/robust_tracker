@@ -4,54 +4,9 @@ cmake_minimum_required(VERSION 3.14)
 set(CMAKE_CXX_STANDARD 14)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
-# set the project name
-set( PROJECT_NAME my_project)
+project(robust_tracker)
 
-set( PROJECT_SOURCE_DIR src)
-set( PROJECT_SOURCE ${PROJECT_SOURCE_DIR}/main.cpp)
-
-set( PROJECT_INCLUDE_DIR include)
-set( PROJECT_TEST_DIR test)
-
-set( PROJECT_LIBRARIES_DIR libs)
-set( PROJECT_LIBRARIES )
-
-project(${PROJECT_NAME})
-
-add_executable(${PROJECT_NAME} ${PROJECT_SOURCE})
-
-target_link_libraries(
-    ${PROJECT_NAME}
-    ${PROJECT_LIBRARIES}
-    GTest::gtest_main
-)
-
-
-
-
-#########################################
-
-
-# google test #
-add_subdirectory(${PROJECT_LIBRARIES_DIR}/googletest)
-
-
-enable_testing()
 include(CTest)
-include(GoogleTest)
-
-add_executable(${PROJECT_NAME}_test
-                ${PROJECT_TEST_DIR}/main.cpp 
-                ${PROJECT_TEST_DIR}/test.cpp)
-# include_directories(${gtest_SOURCE_DIR}/include ${gtest_SOURCE_DIR})
-
-# For Windows: Prevent overriding the parent project's compiler/linker settings
-set(gtest_force_shared_crt ON CACHE BOOL "" FORCE)
-
-foreach(LIBRARY ${PROJECT_LIBRARIES})
-    add_subdirectory(${PROJECT_LIBRARIES_DIR}/${LIBRARY})    
-endforeach(LIBRARY)
-target_link_libraries(${PROJECT_NAME} ${PROJECT_LIBRARIES})
-
-gtest_discover_tests(${PROJECT_NAME})
-
+add_subdirectory(external)
+add_subdirectory(robust_tracker)
+add_subdirectory(tests)
